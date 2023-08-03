@@ -1,0 +1,339 @@
+@charset "UTF-8";
+.media-container {
+	position: relative;
+	height: 580px;
+	width: 1040px;
+	overflow: hidden;
+}
+
+.media {
+	position: absolute;
+}
+
+.media-hidden {
+	display: none;
+}
+
+input[type=number] {
+	margin-bottom: 0;
+	margin-left: 8px;
+	padding: 6px 8px;
+	font-size: 1em;
+	border: none;
+	border-radius: 4px;
+}
+
+.rating-wrap {
+	padding: 10px;
+	display: flex;
+}
+.rating-wrap2 {
+	padding: 50px;
+	display: flex;
+}
+.rating {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.star {
+	width: 30px;
+	height: 30px;
+	margin-right: 2px;
+}
+
+.starcolor {
+	fill: white;
+}
+
+.star:last-of-type {
+	margin-right: 0;
+}
+
+.overlay {
+	background-color: #000;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+@
+supports (mix-blend-mode: color) { .overlay { mix-blend-mode:color;
+	opacity: unset;
+}
+
+}
+.slideshow-container {
+	position: relative;
+	width: 480px;
+	height: 270px;
+	overflow: hidden;
+}
+
+.slideshow-container img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.slideshow {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+	flex: 0 0 100%;
+}
+
+.controls {
+	margin-top: 10px;
+}
+
+.controls button {
+	margin-right: 10px;
+}
+
+.gpage {
+	position: relative;
+	left: 250px;
+}
+
+.a {
+	display: flex;
+}
+
+.b {
+	width: 520px;
+	height: 60px;
+	border-left: solid 1px gray;
+}
+
+#imageButtonsContainer img:not(:first-child), #imageButtonsContainer img:not(:last-child)
+	{
+	width: 100px;
+	height: 50px;
+}
+
+th {
+	width: 440px;
+	height: 80px;
+	text-align: left;
+}
+
+td {
+	color: white;
+}
+
+h3 {
+	width: 1030px;
+}
+
+h4 {
+	width: 1030px;
+}
+
+.a {
+	display: flex;
+}
+
+.b {
+	width: 520px;
+	height: 60px;
+	border-left: solid 1px gray;
+}
+
+.l {
+	display: flex;
+}
+
+.z {
+	width: 1030px;
+	height: 850px;
+	background: rgb(32, 32, 32);
+	color: gray;
+    margin-bottom: 70px;
+}
+#searchResults{
+	
+    position: relative;
+    top: -245px;
+    left: 138px;
+    background: black;
+    width: 500px;
+	
+	
+}
+
+
+.n {
+	margin-right: 98px;
+}
+
+.x {
+	height: 810px;
+	width: 890px;
+	position: relative;
+	left: 60px;
+	top: -15px;
+}
+
+.y {
+	width: 1030px;
+	height: 50px;
+	display: flex;
+	color: white;
+}
+
+.j {
+	color: gray;
+	border-bottom: 1px solid gray;
+	height: 50px;
+	width: 335px;
+	line-height: 43px;
+	display: flex;
+	justify-content: space-between;
+	font-size:18px;
+}
+
+.k {
+	text-align: right;
+	color: white;
+}
+
+.tro_img {
+	background-image:
+		url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='svg css-uwwqev' viewBox='0 0 15 14'%3E%3Cpath d='M1.78952 1.03177H3.21722C3.21547 1.05694 3.21455 1.08267 3.21455 1.10896L3.21455 2.21484H1.92245V3.65386C1.92245 4.29719 2.17572 4.91418 2.62655 5.36908C2.8022 5.54633 3.00223 5.69331 3.21869 5.8067C3.23933 6.28339 3.33644 6.74005 3.49797 7.16449C2.85933 7.01104 2.26929 6.68172 1.7975 6.20565C1.1268 5.52887 0.75 4.61096 0.75 3.65386V2.0807C0.75 1.50139 1.21541 1.03177 1.78952 1.03177Z' fill='currentColor' fill-rule='evenodd' clip-rule='evenodd'%3E%3C/path%3E%3Cpath d='M4.57719 7.26263C4.37731 6.90243 4.24094 6.50149 4.18336 6.07526L4.17941 6.04498C4.16166 5.90411 4.15251 5.76052 4.15251 5.61478L4.15251 1.10896C4.15251 1.02488 4.24618 0.944783 4.41557 0.871928C4.92375 0.653363 6.11342 0.5 7.49999 0.5C9.34874 0.5 10.8475 0.772637 10.8475 1.10895V5.61478C10.8475 5.77097 10.837 5.9247 10.8166 6.07526C10.7459 6.59904 10.5561 7.0846 10.2758 7.50333C9.6742 8.40183 8.65546 8.99257 7.49999 8.99257L7.47834 8.9925C6.23167 8.98454 5.14668 8.28891 4.57719 7.26263Z' fill='currentColor' fill-rule='evenodd' clip-rule='evenodd'%3E%3C/path%3E%3Cpath d='M11.502 7.1645C11.6635 6.74006 11.7606 6.2834 11.7813 5.80672C11.9978 5.69332 12.1978 5.54634 12.3735 5.36908C12.8243 4.91418 13.0775 4.29719 13.0775 3.65386V2.21484H11.8227V1.03177H13.2105C13.7846 1.03177 14.25 1.50139 14.25 2.0807V3.65386C14.25 4.61096 13.8732 5.52887 13.2025 6.20565C12.83 6.58157 12.3836 6.866 11.898 7.04457C11.7686 7.09215 11.6364 7.13221 11.502 7.1645Z' fill='currentColor' fill-rule='evenodd' clip-rule='evenodd'%3E%3C/path%3E%3Cpath d='M10.3826 12.1379C10.3826 12.7521 9.09198 13.25 7.49998 13.25C5.90798 13.25 4.6174 12.7521 4.6174 12.1379C4.6174 11.9371 4.75526 11.7488 4.99644 11.5862L4.99892 11.5845L5.54498 11.2735C6.0756 10.9712 6.51643 10.5312 6.82173 9.99911C6.90651 9.85135 7.12539 9.74247 7.49998 9.74247C7.87457 9.74247 8.09345 9.85135 8.17823 9.99911C8.48353 10.5312 8.92435 10.9712 9.45498 11.2735L10.001 11.5845L10.008 11.5893C10.2464 11.7511 10.3826 11.9384 10.3826 12.1379Z' fill='currentColor' fill-rule='evenodd' clip-rule='evenodd'%3E%3C/path%3E%3C/svg%3E");
+	width: 20px;
+	height: 20px;
+}
+
+#content {
+	max-height: 400px; /* 최대 표시할 높이 */
+	overflow: hidden; /* 초과하는 내용 감춤 */
+	transition: max-height 0.5s ease;
+	/* 부드러운 애니메이션 효과를 위한 transition 속성 추가 */
+}
+
+#toggleButton {
+	width: 1030px;
+	height: 50px;
+    background: rgb(32,32,32);
+    color: white;
+    border: 1px solid black;
+}
+#toggleButton:hover {
+	background-color: gray;
+}
+.tableTop>th {
+	height: 60px;
+}
+#zz{
+	transition: color 125ms ease-in-out;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: 530;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+	
+}
+.tableContent {
+	height: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.tableContent>th {
+	margin: 0;
+	padding: 0;
+	height: 14px;
+}
+
+.tableContent>td {
+	margin: 0;
+	padding: 0;
+	height: 14px;
+	padding-bottom: 40px;
+}
+
+.g {
+	width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    color: gray;
+    color: white;
+    position: absolute;
+    left: 1200px;
+   	top: 400px;
+    }
+
+.u {
+	display: flex;
+}
+
+#gamepagebtn {
+	width: 335px;
+	border: 1px solid white;
+	height: 55px;
+	background: white;
+	color: black;
+    border-radius: 10px;
+}
+
+#gamepagebtn2 {
+	width: 335px;
+	border: 1px solid white;
+	height: 55px;
+	background: black;
+	color: white;
+	border-radius: 10px;
+}
+
+#gamepagebtn3 {
+	width: 165px;
+    height: 40px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#gamepagebtn:hover {
+	background-color: gray;
+}
+.xx{
+	width: 100px;
+    height: 34px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background: #2E2E2E;
+    border-radius: 5px;
+}
+#gamepagebtn2:hover {
+	background-color: gray;
+}
+
+#gamepagebtn3:hover {
+	background-color: gray;
+}
+
+h3, h4 {
+	color: white;
+}
+
+h5 {
+	color: gray;
+}
+
+.t {
+	background: black;
+	color: white;
+	width: 1455px;
+	height: 60px;
+	z-index: 9000;
+}

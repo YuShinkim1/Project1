@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+a {
+	text-decoration-line: none;
+	color: white;
+}
+
+.nav {
+	height: 70px;
+	border-bottom: 1px solid black;
+	display: flex;
+	align-items: center;
+}
+
+.nav-right-items {
+	margin-left: auto;
+}
+        table {
+            border-collapse: collapse;
+        }
+
+        th{
+	            padding: 8px;
+        }
+        td {
+            padding: 8px;
+            height:378px;
+            width:222px;
+            color:white;
+        }
+
+.nav-item {
+	margin-left: 10px;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.price-item {
+	width: 500px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+.prices {
+	display: flex;
+}
+
+.subprice-item {
+	width: 240px;
+	height: 400px;
+}
+
+.subprice2-item {
+	width: 300px;
+	height: 400px;
+}
+
+.ka {
+	position: fixed;
+	top: 0;
+	background-color: black; /* 네비게이션 바의 배경색 */
+	width: 100%;
+	z-index: 9999;
+	display: flex;
+	margin-left: -8px;
+}
+        .search-container {
+            position: relative;
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        .search-input {
+            width: 190px;
+            height: 23px;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            background-color: #f2f2f2;
+            outline: none;
+        }
+
+        .search-input:focus {
+            background-color: white;
+            box-shadow: 0 0 5px #888;
+        }
+
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 500px;
+            max-height: 300px;
+            overflow-y: auto;
+            background-color: black;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 5px;
+            display: none;
+        }
+
+        .search-results.show {
+            display: block;
+                position: relative;
+    bottom: 237px;
+    left: 132px;
+        }
+
+        .search-item {
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-item:hover {
+            background-color: #f2f2f2;
+        }
+
+        .search-item img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        .search-item span {
+            color: white;
+            font-weight: bold;
+        }
+
+        .show-more {
+        	margin-left:10px;
+            margin-top: 10px;
+        }
+
+        .show-more a {
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+.frame1 {
+	width: 230px;
+	height: 300px;
+}
+.suggestion span {
+        color: white; /* 연관 검색어 내용의 폰트 컬러를 검정으로 변경 */
+    }
+.kategori {
+	display: inline-block;
+	padding: 10px 20px;
+	color: gray;
+	font-weight: bold;
+	transition: background-color 0.3s; /* 배경색 변경에 대한 트랜지션 효과 설정 */
+}
+
+.kategori:hover {
+	color: blue; /* 마우스 호버 시 배경색 변경 */
+}
+        .change-color {
+            color: gray;
+            transition: color 0.3s;
+            cursor: pointer;
+        }
+
+        .change-color:hover {
+            color: white;
+        }
+.subtitle {
+	display: flex;
+}
+
+.subprices {
+	margin-top: 50px;
+}
+
+.subprices2 {
+	display: flex;
+	margin-top: 50px;
+}
+
+.nav-subtitle {
+	margin-right: 350px;
+}
+
+.subprice-item2 {
+	margin-left: auto;
+}
+
+.nav-right-items2 {
+	margin-left: auto;
+}
+
+.css-b0xoos {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgb(0, 116, 228);
+	color: rgb(245, 245, 245);
+	padding: 5px 10px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.css-1t8lqo3 {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: rgb(245, 245, 245);
+	padding: 5px 10px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.css-1k3geus {
+	-webkit-box-align: center;
+	align-items: center;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	color: rgb(245, 245, 245);
+	display: flex;
+	font-weight: 500;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	opacity: 0.6;
+	padding: 20px 14px;
+	width: 100%;
+}
+#post_searchBox {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 1173px;
+}
+
+#post_searchGlass {
+    height: 21px;
+    background-color: rgb(32, 32, 32);
+    width: 38px;
+    text-align: center;
+    padding-top: 22px;
+}
+
+#searchInput {
+    background-color: #0c0d16;
+    width: 330px;
+    border: none;
+    color: white;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.eventButton, .priceButton, .genreButton, .platformButton {
+  background-color: black;
+  color: gray;
+  width: 240px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.hiddenContent {
+  display: none;
+}
+
+.hiddenContent.show {
+  display: block;
+}
+    .filter-button,
+    .genre-button {
+        display: none;
+    }
+    .big-rectangle {
+        width: 4000px;
+        height: 1000px;
+        background-color: green;
+    }
+    .game-info {
+        color: white;
+    }
+    .black-background {
+    }
+        .filter-button {
+        display: none;
+    }
+
+    .game-row {
+        display: flex;
+    }
+
+    .game-item {
+        margin-right: 10px;
+    }
+      .c{
+        width:222px;
+        height:300px;
+        }
+        .d{
+        width:220px;
+        height:30px;
+        position:relative;
+        bottom:20px;
+        }
